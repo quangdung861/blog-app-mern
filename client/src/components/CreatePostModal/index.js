@@ -13,7 +13,6 @@ const CreatePostModal = () => {
     content: '',
     attachment: '',
   });
-  console.log("🚀 ~ file: index.js:16 ~ CreatePostModal ~ data:", data)
   const dispatch = useDispatch();
   const { isShow } = useSelector(modalState$);
   const classes = useStyles();
